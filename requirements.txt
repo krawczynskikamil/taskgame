@@ -1,0 +1,10 @@
+asgiref
+Django
+django-recurrence
+djangorestframework
+Pillow
+python-dateutil
+pytz
+six
+sqlparse
+tzdata
