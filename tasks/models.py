@@ -12,6 +12,11 @@ class Profile(models.Model):
         return str(self.user)
 
     def create(self, data):
+        print('-----------')
+        print('-----------')
+        print('spam')
+        print('-----------')
+        print('-----------')
         user_data = data.pop('user')
         user_data['password'] = make_password(user_data.get('password'))
         user = User.objects.create(**user_data)
